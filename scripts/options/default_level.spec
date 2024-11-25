@@ -8,8 +8,9 @@ buffer_file=../build/level_path/wot_indexfile
 
 buffer_manager_num=64
 batch_size=24
-block_cache_size=3145728
-max_open_files=74
+
+is_lsmt=1
+lsmt_level_limit=6
 
 # 4MB=4194304
 # 6MB=6291456

@@ -34,3 +34,4 @@ bash_scripts/*
 experiments/*
 !bash_scripts/*.py
 *obsolete*
+*.png

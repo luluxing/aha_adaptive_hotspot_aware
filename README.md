@@ -1,4 +1,4 @@
-# An adpative index xyz
+# An adpative index AHA
 In this repo, we include instructions on how to build and run our code.
 
 ## Dependencies

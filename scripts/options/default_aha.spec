@@ -27,7 +27,7 @@ file_size=6291456
 scale_in=4
 
 # Adapt strategy
-adapt_strategy=5
+adapt_strategy=4
 # Default proactive validation is false
 proactive_validation=0
 

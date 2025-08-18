@@ -111,6 +111,16 @@ target_link_libraries(
 #   GTest::gtest_main WotAdapt pthread
 # )
 
+# Manual test: test_refactor (not a gtest-based test)
+add_executable(
+  test_refactor
+  manual_tests/test_refactor.cc
+)
+target_link_libraries(
+  test_refactor
+  WotAdapt
+)
+
 include(GoogleTest)
 gtest_discover_tests(gtest_hw)
 gtest_discover_tests(gtest_page)
